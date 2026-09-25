@@ -1,0 +1,34 @@
+body{
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      font-family: 'Tahoma', sans-serif;
+      font-size: 40px;
+}
+
+.box{
+      width: 100px;
+      height: 100px;
+      box-sizing: border-box;
+      flex-shrink: 0;
+      border-top: 1px solid #687291;
+      text-align: center;
+}
+.box:nth-child(odd){
+       background-color: #dfe1e7;
+}
+
+.box:nth-child(even) {
+  background-color: #eeeff2;
+}
+
+.box.last {
+  background-color: #687291;
+  border: 4px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
