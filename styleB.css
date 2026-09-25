@@ -1,0 +1,30 @@
+body{
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      font-size: 40px;
+      white-space: nowrap;
+}
+
+.box {
+      display: inline-block;
+      width: 100px;
+      height: 150px;
+      box-sizing: border-box;
+      background-color: #eeeff2;
+      border-left: 10px dotted #D0D0FF;
+      padding: 10px;
+      margin-right: 10px;
+      vertical-align: top;
+}
+
+.box:hover {
+      background-color: yellow;
+      color: goldenrod;
+      cursor: pointer;
+}
+.box.last {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      margin-right: 0;
+}
